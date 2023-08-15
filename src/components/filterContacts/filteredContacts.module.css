@@ -1,0 +1,18 @@
+.filterInput {
+    border-radius: 5px;
+    border: 2px solid #8446cf;
+    color: #8446cf;
+    outline: none;
+    padding: 8px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .filterInput::placeholder {
+    color: #8446cf;
+  }
+  
+  .filterInput:focus {
+    border: 2px solid #bc7fed;
+    box-shadow: 0 0 10px 0 rgba(188, 127, 237, 0.7);
+  }
+  

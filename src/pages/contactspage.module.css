@@ -1,0 +1,35 @@
+.container {
+  /* position: relative;
+    top: 0;
+    left: 0; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  font-family: 'Work Sans', sans-serif;
+}
+.phoneContainer,.contactsContainer {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+  background-color: #f0f0f0;
+  min-width: 330px;
+}
+.phoneContainer{
+  margin-top: 80px;
+}
+.contactsContainer{
+  margin-bottom: 80px;
+}
+
+
+
+
